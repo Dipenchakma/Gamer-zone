@@ -2,12 +2,14 @@
 * {
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+  max-width: 1440px;
 }
 
 /* nav section here */
 
 .nav-container {
   min-height: 130px;
+  margin: 0 auto;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   display: flex;
@@ -22,7 +24,6 @@
 .nav-logo {
   width: 86.041px;
   height: 40px;
-  flex-shrink: 0;
   margin-left: 140px;
 }
 .nav-title {
@@ -67,4 +68,118 @@
   display: flex;
   gap: 24px;
   align-items: center;
+}
+
+/* Banner section start */
+section {
+  height: 600px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.banner-container {
+  max-width: 1440px;
+  max-width: 240px auto 0;
+  display: flex;
+}
+.banner-content {
+  width: 50%;
+  border: 1px solid tomato;
+}
+.banner-play {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.banner-img {
+  width: 50%;
+  border: 1px solid tomato;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
+}
+/* footer section */
+footer {
+  height: 636px;
+  background: #0b0223;
+}
+.copywrite-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.copywrite-logos {
+  padding-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copywrite-logos img {
+  width: 86.041px;
+  height: 40px;
+}
+.copywrite-logo-title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 25px;
+}
+#amer {
+  background: linear-gradient(90deg, #f0f1ec 0%, #eceeeb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer ul {
+  display: flex;
+  color: #eceeeb;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  list-style: none;
+}
+.term-and-conditions {
+  display: flex;
+  display: flex;
+  color: #eceeeb;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 30px;
+}
+.condition-list {
+  list-style: none;
+  color: rgba(178, 178, 178, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+}
+.copywrite {
+  color: rgba(178, 178, 178, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.fa-brands{
+  font-size: 40px;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 45px;
 }
