@@ -177,8 +177,7 @@ section img {
 .card1 {
   padding-left: 110px;
 }
-.card2 {
-}
+
 .card4 {
   padding-right: 110px;
 }
@@ -187,7 +186,60 @@ section img {
   font-size: 14px;
   font-weight: 200;
 }
+/* Aniversery section */
+.aniversery-container {
+  max-width: 1440px;
+  border: 1px solid #8758f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`}
+.aniversery-coontent {
+  width: 50%;
+  border: 1px solid green;
+}
+.aniversery-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align-last: right;
+  padding-right: 210px;
+}
+#no-download {
+  background: linear-gradient(180deg, #080808 0%, #040404 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aniversery-description {
+  color: #534c64;
 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: -20px;
+  text-align-last: right;
+  padding-right: 210px;
+}
+.aniversery-img {
+  width: 30%;
+  height: 40%;
+  padding-top: 100px;
+  padding-bottom: -50px;
+  margin-right: -80px;
+  border: 1px solid tomato;
+}
+.badge-img {
+  width: 60%;
+  height: 60%;
+  position: relative;
+  bottom: 120px;
+  margin-left: -100px;
+}
 /* footer section */
 footer {
   height: 636px;
