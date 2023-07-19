@@ -71,40 +71,73 @@
 }
 
 /* Banner section start */
-section {
-  height: 600px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 66, 165, 0.03) 0%,
-    rgba(255, 66, 165, 0.03) 100%
-  );
-}
 .banner-container {
   max-width: 1440px;
-  max-width: 240px auto 0;
+  height: 600px;
   display: flex;
+  fill: linear-gradient(
+    223deg,
+    rgba(140, 87, 238, 0.03) 0%,
+    rgba(241, 68, 174, 0.03) 100%
+  );
 }
 .banner-content {
   width: 50%;
-  border: 1px solid tomato;
-}
-.banner-play {
-  color: #0b0223;
-  text-align: center;
-  font-family: Work Sans;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: uppercase;
+  padding-left: 130px;
+  padding-top: 50px;
 }
 .banner-img {
-  width: 50%;
-  border: 1px solid tomato;
+  width: 40%;
+  margin-right: -20px;
 }
+
 .banner-img img {
   width: 100%;
   height: 100%;
+}
+.banner-play {
+  color: #0b0223;
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.banner-title {
+  font-size: 80px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -20px;
+}
+.banner-description {
+  margin-top: -50px;
+}
+.signup {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  display: inline-flex;
+  padding: 10px 20px;
+  border: none;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border-radius: 40px;
+}
+.Go-goue {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 20px;
+  border: none;
+  background: #4ec5f7;
+  border-radius: 40px;
+  margin-left: 20px;
+}
+.banner-btn {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 20px;
 }
 /* footer section */
 footer {
@@ -173,10 +206,10 @@ footer ul {
   text-align: center;
   padding-bottom: 130px;
 }
-.fa-brands{
+.fa-brands {
   font-size: 40px;
 }
-.icons{
+.icons {
   display: flex;
   justify-content: space-between;
   width: 30%;
