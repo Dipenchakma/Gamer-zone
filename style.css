@@ -177,9 +177,16 @@ section img {
 .card1 {
   padding-left: 110px;
 }
+.card3 img{
+ 
+}
+.card3 img:hover{
+  
 
+}
 .card4 {
   padding-right: 110px;
+  
 }
 .videos-container p {
   color: #534c64;
@@ -414,3 +421,5 @@ footer ul {
   margin: 0 auto;
   margin-top: 45px;
 }
+
+
