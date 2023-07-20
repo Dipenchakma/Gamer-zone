@@ -299,7 +299,45 @@ section img {
   text-align-last: right;
 }
 
-/* footer section */
+/* games section */
+
+
+.gaming-btn{
+  max-width: 1440px;;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.ovverlay-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  background-color: none;
+  border: none;
+  background: none;
+  transition: 0.5s;
+  margin: 50 auto;
+}
+.ovverlay-btn:hover {
+  border: 2px solid #ff42a5;
+  border-radius: 60px;
+  font: 16px;
+  color: #ff42a5;
+  
+}
+.btn-2{
+  margin-top: 20px;
+}
+  
+
+
+/* footer section here */
 footer {
   height: 636px;
   background: #0b0223;
